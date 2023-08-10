@@ -1,0 +1,46 @@
+html {height: 250%; background: linear-gradient(to left top, #444444, #000);
+      font-family: 'Poppins', sans-serif;
+      background-repeat: no-repeat;}
+
+body {margin: 0px; padding: 0px;
+      background-image: url(Imagens/background2.png);
+      background-size: 500px;
+      background-repeat: repeat-x;}
+
+.Tema_Claro {position: relative; top: -1665px;
+              left: 10px; color: white;
+              border: solid 2px white;}
+
+.Titulo {border: solid 2px #e89000;
+         position: relative; 
+         top: -20px; background: black;
+         color: white;}
+
+#A1 {border: solid 2px;
+               position: relative; top: 50px;
+               border-radius: 50%; color: white;}
+
+.Inicio {position: relative; top: 50px;
+         color: white;}
+
+.Bolo {position: relative; top: 50px;
+       height: 50%; width: 50%;}
+
+#A2 {border: solid 2px;
+          position: relative; 
+          top: 100px; border-radius: 50%;
+          color: white;}
+
+.Receita {position: relative; top: 100px;
+          color: white;}
+
+#B1,#B2,#B3 {text-decoration: underline;
+             color: white;}
+
+.Final {position: relative; top: 150px;
+        color: white;}
+
+@media screen and (min-width: 528px){
+  html {height: 525%;}
+  .Tema_Claro {top: -1589px;}
+}

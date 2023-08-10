@@ -1,0 +1,41 @@
+html {height: 250%; background: linear-gradient(to left top, #444444, #b7b7b7b7);
+      font-family: 'Poppins', sans-serif;
+      background-repeat: no-repeat;}
+
+body {margin: 0px; padding: 0px;
+      background-image: url(Imagens/background.png);
+      background-size: 500px;
+      background-repeat: repeat-x;}
+
+.Tema_Escuro {position: relative; top: -1665px;
+              left: 10px; color: white;
+              border: solid 2px white;}
+
+.Titulo {border: solid 2px #56e999;
+         position: relative; 
+         top: -20px; background: black;
+         color: white;}
+
+#A1 {border: solid 2px;
+               position: relative; top: 50px;
+               border-radius: 50%;}
+
+.Inicio {position: relative; top: 50px;}
+
+.Bolo {position: relative; top: 50px;
+       height: 50%; width: 50%;}
+
+#A2 {border: solid 2px;
+          position: relative; 
+          top: 100px; border-radius: 50%;}
+
+.Receita {position: relative; top: 100px;}
+
+#B1,#B2,#B3 {text-decoration: underline;}
+
+.Final {position: relative; top: 150px;}
+
+@media screen and (min-width: 528px){
+  html {height: 525%;}
+  .Tema_Escuro {top: -1589px;}
+}
