@@ -7,7 +7,7 @@ body {margin: 0px; padding: 0px;
       background-size: 500px;
       background-repeat: repeat-x;}
 
-.Tema_Claro {position: relative; top: -1645px;
+.Tema_Claro {position: relative; top: -1650px;
               left: 10px; color: white;
               border: solid 2px white;}
 
@@ -47,5 +47,5 @@ body {margin: 0px; padding: 0px;
 
 @media screen and (min-width: 1000px){
   html {height: 100%;}
-  .Tema_Escuro {top: -1797px;}
+  .Tema_Escuro {top: -1997px;}
 }
