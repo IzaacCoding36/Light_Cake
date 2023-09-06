@@ -39,3 +39,8 @@ body {margin: 0px; padding: 0px;
   html {height: 525%;}
   .Tema_Escuro {top: -1589px;}
 }
+
+@media screen and (min-width: 1000px){
+  html {height: 100%;}
+  .Tema_Escuro {top: -1597px;}
+}
