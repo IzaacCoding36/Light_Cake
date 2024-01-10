@@ -2,6 +2,11 @@ html {height: 250%; background: linear-gradient(to left top, #444444, #b7b7b7b7)
       font-family: 'Poppins', sans-serif;
       background-repeat: no-repeat;}
 
+@keyframes glow { 0% {box-shadow: 0px 0px 15px #56e999; border: solid 2px #56e999;}
+                  50% {box-shadow: 0px 0px 15px cyan; border: solid 2px cyan;}
+                  100% {box-shadow: 0px 0px 15px #56e999; border: solid 2px #56e999;}
+}
+
 body {margin: 0px; padding: 0px;
       background-image: url(Imagens/background.png);
       background-size: 500px;
@@ -15,6 +20,7 @@ body {margin: 0px; padding: 0px;
 .Titulo {border: solid 2px #56e999;
          position: relative; 
          top: -20px; background: black;
+         animation-name: glow; animation-duration: 4s; animation-delay: 1.5s; animation-iteration-count: infinite;
          color: white;}
 
 #A1 {border: solid 2px #56e999;
@@ -22,6 +28,7 @@ body {margin: 0px; padding: 0px;
      background: black;
      color: white;
      box-shadow: 0px 0px 15px #56e999 ;
+     animation-name: glow; animation-duration: 4s; animation-delay: 1.5s; animation-iteration-count: infinite;
      border-radius: 50%;}
 
 .Inicio {position: relative; top: 50px;}
@@ -34,6 +41,7 @@ body {margin: 0px; padding: 0px;
      box-shadow: 0px 0px 15px #56e999;
      color: white;
      background: black;
+     animation-name: glow; animation-duration: 4s; animation-delay: 1.5s; animation-iteration-count: infinite;
      border-radius: 50%;}
 
 .Receita {position: relative; top: 100px;}
