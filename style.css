@@ -46,7 +46,7 @@ body {margin: 0px; padding: 0px;
 
 .Receita {position: relative; top: 100px;}
 
-#B1,#B2,#B3 {text-decoration: underline;}
+#B1,#B2,#B3 {text-decoration: underline; text-shadow: 0px 0px 15px aqua; font-weight: bold;}
 
 .Final {position: relative; top: 150px;}
 

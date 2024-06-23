@@ -49,7 +49,7 @@ body {margin: 0px; padding: 0px;
           color: white;}
 
 #B1,#B2,#B3 {text-decoration: underline;
-             color: white;}
+             color: white; text-shadow: 0px 0px 15px orange; font-weight: bold;}
 
 .Final {position: relative; top: 150px;
         color: white;}
