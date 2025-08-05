@@ -3,57 +3,80 @@
   <head>
   <meta charset="UTF-8">
   <meta name="author" content="IzaacCoding36">
-  <meta http-equiv="X-UA-Compatible" content="edge">
-  <meta name="viewport" content="width=device-width, initial-scale= 1.0">
-  <meta name="description" content="Esse site foi criado para meu projeto de empreendedorismo">
-  <meta name="keywords" content="HTML, CSS, Projeto">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Light's Cake - Uma deliciosa receita de bolo de chocolate desenvolvida para projeto de empreendedorismo">
+  <meta name="keywords" content="bolo, chocolate, receita, Light's Cake, culinária, doce">
+  <meta name="robots" content="index, follow">
   <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" type="Image/jpg" href="Imagens/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="Imagens/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <script>
     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
   </script>
   <script defer src="/_vercel/insights/script.js"></script>
-  <base href="index.html">
-  <title>Light's Cake</title>
+  <title>Light's Cake - Receita de Bolo de Chocolate</title>
   </head>
   <body>
-    <center>
-      <h2 class="Titulo">Light's Cake</h2>
-      <h4>Olá! Bem-vindo á página do Light's Cake</h4>
-      <section>
-        <div>
-          <h2 id="A1">O que é Light's Cake?</h2>
-          <p class="Inicio">O light's cake é uma receita de bolo de chocolate que foi desenvolvida para um projeto de Empreendedorismo, onde cada participante devia realizar uma receita/projeto para planejar uma venda deste produto.</p>
-          <img src="Imagens/Bolo.png" class="Bolo" alt="Bolo"/>
-        </div>
-        <div>
-          <h2 id="A2">Receita</h2>
-          <p class="Receita">Ficou interessado em realizar essa receita também? Ótimo. Confira a receita abaixo:</p>
-          <h4 class="Receita" id="B1">Para realizar essa receita você precisará de:</h4>
-          <p class="Receita">1 forma de qualquer tamanho;</p>
-          <p class="Receita">Utensílios e equipamentos de preparo da sua preferência;</p>
-          <p class="Receita">Manteiga, margarina ou óleo para untar a forma;</p>
-          <p class="Receita">Trigo, farinha ou maizena para polvilhar na forma e remover os excessos do que foi utilizado na forma.</p>
-          <h4 class="Receita" id="B2">No bolo será utilizado:</h4>
-          <p class="Receita">Açúcar;</p>
-          <p class="Receita">Trigo;</p>
-          <p class="Receita">Achocolatado;</p>
-          <p class="Receita">Óleo;</p>
-          <p class="Receita">Ovos;</p>
-          <p class="Receita">Água morna ou leite;</p>
-          <p class="Receita">Fermento.</p>
-          <h4 class="Receita" id="B3">Opcional:</h4>
-          <p class="Receita">Cobertura de chocolate ou outro sabor de preferência;</p>
-          <p class="Receita">Recheio de chocolate ou sabores diferenciados.</p>
-          <p class="Final">Enfim, essa é a receita do nosso projeto, aproveite e sinta-se livre para conferir deste site sempre que quiser!</p>
-        </div>
+    <main class="container">
+      <header>
+        <h1 class="Titulo">Light's Cake</h1>
+        <p class="subtitle">Olá! Bem-vindo à página do Light's Cake</p>
+      </header>
+      
+      <section class="about-section">
+        <h2 id="A1">O que é Light's Cake?</h2>
+        <p class="Inicio">O Light's Cake é uma receita de bolo de chocolate que foi desenvolvida para um projeto de Empreendedorismo, onde cada participante devia realizar uma receita/projeto para planejar uma venda deste produto.</p>
+        <img src="Imagens/Bolo.png" class="Bolo" alt="Delicioso bolo de chocolate Light's Cake"/>
       </section>
-    </center>
-    <a href="Tema_Escuro.html">
-       <svg  viewBox="0 0 48 48" class="Tema_Escuro" xmlns="http://www.w3.org/2000/svg" height="1.5em" width="1.5em"><path fill="currentColor" d="M24 42q-7.5 0-12.75-5.25T6 24q0-6.75 3.975-11.45Q13.95 7.85 20.4 6.5q2.05-.4 2.8.7t-.05 3q-.45 1.15-.7 2.35-.25 1.2-.25 2.45 0 4.5 3.15 7.65Q28.5 25.8 33 25.8q1.25 0 2.425-.225 1.175-.225 2.275-.625 2.15-.8 3.2.075 1.05.875.55 2.975-1.35 6.05-6.05 10.025Q30.7 42 24 42Z"/></svg>
-       </a>
+      
+      <section class="recipe-section">
+        <h2 id="A2">Receita</h2>
+        <p class="Receita">Ficou interessado em realizar essa receita também? Ótimo. Confira a receita abaixo:</p>
+        
+        <div class="recipe-category">
+          <h3 class="Receita" id="B1">Para realizar essa receita você precisará de:</h3>
+          <ul class="ingredients-list">
+            <li>1 forma de qualquer tamanho</li>
+            <li>Utensílios e equipamentos de preparo da sua preferência</li>
+            <li>Manteiga, margarina ou óleo para untar a forma</li>
+            <li>Trigo, farinha ou maizena para polvilhar na forma e remover os excessos</li>
+          </ul>
+        </div>
+        
+        <div class="recipe-category">
+          <h3 class="Receita" id="B2">Ingredientes do bolo:</h3>
+          <ul class="ingredients-list">
+            <li>2 xícaras de açúcar</li>
+            <li>3 xícaras de trigo</li>
+            <li>4 colheres de sopa de achocolatado</li>
+            <li>1 xícara de óleo</li>
+            <li>3 ovos</li>
+            <li>1 xícara de água morna ou leite</li>
+            <li>1 colher de sopa de fermento em pó</li>
+          </ul>
+        </div>
+        
+        <div class="recipe-category">
+          <h3 class="Receita" id="B3">Opcional:</h3>
+          <ul class="ingredients-list">
+            <li>Cobertura de chocolate ou outro sabor de preferência</li>
+            <li>Recheio de chocolate ou sabores diferenciados</li>
+          </ul>
+        </div>
+        
+        <footer class="recipe-footer">
+          <p class="Final">Enfim, essa é a receita do nosso projeto, aproveite e sinta-se livre para conferir este site sempre que quiser!</p>
+        </footer>
+      </section>
+    </main>
+    
+    <button class="theme-toggle" onclick="window.location.href='Tema_Escuro.html'" aria-label="Alternar para tema escuro">
+      <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" height="1.5em" width="1.5em">
+        <path fill="currentColor" d="M24 42q-7.5 0-12.75-5.25T6 24q0-6.75 3.975-11.45Q13.95 7.85 20.4 6.5q2.05-.4 2.8.7t-.05 3q-.45 1.15-.7 2.35-.25 1.2-.25 2.45 0 4.5 3.15 7.65Q28.5 25.8 33 25.8q1.25 0 2.425-.225 1.175-.225 2.275-.625 2.15-.8 3.2.075 1.05.875.55 2.975-1.35 6.05-6.05 10.025Q30.7 42 24 42Z"/>
+      </svg>
+    </button>
   </body>
 </html>
