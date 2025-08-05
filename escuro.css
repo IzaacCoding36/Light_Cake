@@ -1,7 +1,7 @@
 html {
   height: 100vh;
   min-height: 100%;
-  background: linear-gradient(90deg, #aaaaaa 0%, #ffffff 100%);
+  background: linear-gradient(90deg, #000000 0%, #444444 100%);
   font-family: 'Poppins', sans-serif;
   background-color: #aaaaaa;
   background-repeat: repeat-y; 
