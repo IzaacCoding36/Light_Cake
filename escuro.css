@@ -1,10 +1,10 @@
 html {
   height: 100vh;
   min-height: 100%;
-  background: linear-gradient(to left top, #444444, #000);
+  background: linear-gradient(90deg, #aaaaaa 0%, #ffffff 100%);
   font-family: 'Poppins', sans-serif;
-  background-color: #444444;
-  background-repeat: no-repeat; 
+  background-color: #aaaaaa;
+  background-repeat: repeat-y; 
   cursor: default;
 }
 
