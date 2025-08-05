@@ -1,62 +1,200 @@
-html {height: 250%; background: linear-gradient(to left top, #444444, #b7b7b7b7);
-      font-family: 'Poppins', sans-serif;
-      background-color: #b7b7b7b7;
-      background-repeat: no-repeat; cursor: default;}
-
-@keyframes glow { 0% {box-shadow: 0px 0px 15px #56e999; border: solid 2px #56e999;}
-                  50% {box-shadow: 0px 0px 15px cyan; border: solid 2px cyan;}
-                  100% {box-shadow: 0px 0px 15px #56e999; border: solid 2px #56e999;}
+html {
+  height: 100vh;
+  min-height: 100%;
+  background: linear-gradient(to left top, #444444, #b7b7b7b7);
+  font-family: 'Poppins', sans-serif;
+  background-color: #b7b7b7b7;
+  background-repeat: no-repeat; 
+  cursor: default;
 }
 
-body {margin: 0px; padding: 0px;
-      background-image: url(Imagens/background.png);
-      background-size: 500px;
-      background-repeat: repeat-x;}
-
-.Tema_Escuro {position: relative; top: -1653px;
-              left: 10px; color: white;
-              box-shadow: 0px 0px 5px white;
-              border: solid 2px white;}
-
-.Titulo {border: solid 2px #56e999;
-         position: relative; 
-         top: -20px; background: black;
-         animation-name: glow; animation-duration: 4s; animation-delay: 1.5s; animation-iteration-count: infinite;
-         color: white;}
-
-#A1 {border: solid 2px #56e999;
-     position: relative; top: 50px;
-     background: black;
-     color: white;
-     box-shadow: 0px 0px 15px #56e999 ;
-     animation-name: glow; animation-duration: 4s; animation-delay: 1.5s; animation-iteration-count: infinite;
-     border-radius: 50%;}
-
-.Inicio {position: relative; top: 50px;}
-
-.Bolo {position: relative; top: 50px;
-       height: 50%; width: 50%;}
-
-#A2 {border: solid 2px #56e999;
-     position: relative; top: 100px;
-     box-shadow: 0px 0px 15px #56e999;
-     color: white;
-     background: black;
-     animation-name: glow; animation-duration: 4s; animation-delay: 1.5s; animation-iteration-count: infinite;
-     border-radius: 50%;}
-
-.Receita {position: relative; top: 100px;}
-
-#B1,#B2,#B3 {text-decoration: underline; text-shadow: 0px 0px 15px aqua; font-weight: bold;}
-
-.Final {position: relative; top: 150px;}
-
-@media screen and (min-width: 528px){
-  html {height: 525%;}
-  .Tema_Escuro {top: -1585px;}
+@keyframes glow { 
+  0% {box-shadow: 0px 0px 15px #56e999; border: solid 2px #56e999;}
+  50% {box-shadow: 0px 0px 15px cyan; border: solid 2px cyan;}
+  100% {box-shadow: 0px 0px 15px #56e999; border: solid 2px #56e999;}
 }
 
-@media screen and (min-width: 1000px){
-  html {height: 300%;}
-  .Tema_Escuro {top: -1650px; background: black;}
+body {
+  margin: 0px; 
+  padding: 0px;
+  background-image: url(Imagens/background.png);
+  background-size: 500px;
+  background-repeat: repeat-x;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+.theme-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: black;
+  color: white;
+  border: solid 2px white;
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px white;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.theme-toggle:hover {
+  box-shadow: 0px 0px 15px white;
+  transform: scale(1.1);
+}
+
+.Titulo {
+  border: solid 2px #56e999;
+  background: black;
+  animation-name: glow; 
+  animation-duration: 4s; 
+  animation-delay: 1.5s; 
+  animation-iteration-count: infinite;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.about-section {
+  margin: 40px 0;
+}
+
+.recipe-section {
+  margin: 40px 0;
+}
+
+#A1 {
+  border: solid 2px #56e999;
+  background: black;
+  color: white;
+  box-shadow: 0px 0px 15px #56e999;
+  animation-name: glow; 
+  animation-duration: 4s; 
+  animation-delay: 1.5s; 
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.Inicio {
+  margin: 30px 0;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+.Bolo {
+  height: 300px;
+  width: auto;
+  max-width: 100%;
+  margin: 30px 0;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#A2 {
+  border: solid 2px #56e999;
+  background: black;
+  box-shadow: 0px 0px 15px #56e999;
+  color: white;
+  animation-name: glow; 
+  animation-duration: 4s; 
+  animation-delay: 1.5s; 
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.recipe-category {
+  margin: 30px 0;
+  text-align: left;
+}
+
+.ingredients-list {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.ingredients-list li {
+  margin: 8px 0;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  line-height: 1.4;
+}
+
+.ingredients-list li:last-child {
+  border-bottom: none;
+}
+
+.Receita {
+  line-height: 1.6;
+  margin: 15px 0;
+}
+
+#B1, #B2, #B3 {
+  text-decoration: underline; 
+  text-shadow: 0px 0px 15px aqua; 
+  font-weight: bold;
+  color: #0066cc;
+  margin: 25px 0 15px 0;
+}
+
+.recipe-footer {
+  margin-top: 50px;
+  padding: 20px;
+  background: rgba(0,0,0,0.05);
+  border-radius: 10px;
+}
+
+.Final {
+  font-style: italic;
+  font-size: 1.1em;
+  color: #666;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+  
+  .Bolo {
+    height: 200px;
+  }
+  
+  .theme-toggle {
+    bottom: 15px;
+    right: 15px;
+    padding: 10px;
+  }
+  
+  .ingredients-list {
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    padding: 40px;
+  }
 }
